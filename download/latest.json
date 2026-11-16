@@ -1,9 +1,9 @@
 {
- "version": "0.8.0",
+ "version": "0.9.0",
  "windows": "download/AI-Smart-Storage-Setup.exe",
  "mac": "download/AI-Smart-Storage-Mac.dmg",
  "mac_intel": "download/AI-Smart-Storage-Mac-Intel.dmg",
  "android": "download/AI-Smart-Storage-Android.apk",
- "notes_ar": "ألبومات الأشخاص، ضغط الفيديوهات، العائلة على أرشيف واحد، كشف المحادثة الرسمي، سنتك في صور والخريطة، الخزنة الآمنة، النسخة السحابية المشفّرة، iMessage وسناب شات، قفل البرنامج، والوصول من برّا البيت.",
- "notes_en": "People albums, video compression, family profiles, official chat transcript, year in photos & map, secure vault, encrypted cloud backup, iMessage & Snapchat, app lock, and access from outside home."
+ "notes_ar": "تصميم جديد بالكامل، دليل للبداية، صفحة إعدادات فيها تشغيل وإيقاف لكل ميزة، وأيقونة جديدة.",
+ "notes_en": "A completely new design, a first-run guide, a settings page with an on/off switch for every feature, and a new icon."
 }
