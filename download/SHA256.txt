@@ -1,1 +1,4 @@
-SHA-256  bab5d635b2ba9c57ea11e06425aac86619c39145f2b05780eea88848e640e7a8  AI-Smart-Storage-Setup.exe  (v0.4.0)
+SHA-256  7a4412a1b57099aca0d0a81c4a7573c17a29946246157372efd1dbb443b22f02  AI-Smart-Storage-Setup.exe
+SHA-256  aea2d452f23c131a1654f0f6c8bbe8830cbf335febc86b15af605f14aa3f3dbd  AI-Smart-Storage-Mac.dmg
+SHA-256  879dab3c111229f813b565ca6fb3e6258c2df92a1e2d5e4e20d33cea76261ebc  AI-Smart-Storage-Android.apk
+(v0.5.0)
