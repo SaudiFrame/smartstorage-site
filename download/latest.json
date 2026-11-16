@@ -1,0 +1,8 @@
+{
+ "version": "0.6.0",
+ "windows": "download/AI-Smart-Storage-Setup.exe",
+ "mac": "download/AI-Smart-Storage-Mac.dmg",
+ "android": "download/AI-Smart-Storage-Android.apk",
+ "notes_ar": "المساعد الذكي «اسأل ذكرياتك»، نسخة احتياطية تلقائية، التقرير الأسبوعي، المصروفات من الفواتير، والتحديث التلقائي.",
+ "notes_en": "Smart assistant “Ask your memories”, automatic backup, weekly report, expenses from bills, and automatic updates."
+}
