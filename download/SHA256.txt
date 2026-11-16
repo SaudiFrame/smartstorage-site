@@ -1,0 +1,1 @@
+SHA-256  d1b8b5c57cb69d725cb2454a06365ab83f3435871b72f359a5fc55ec0ee7db8c  AI-Smart-Storage-Setup.exe  (v0.2.0)

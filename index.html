@@ -102,7 +102,7 @@ html[lang=ar] [data-l=ar],html[lang=en] [data-l=en]{display:revert}
    <a class="btn dl" href="#" id="dlBtn"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg><span data-l="ar">تحميل لويندوز</span><span data-l="en">Download for Windows</span></a>
    <a class="btn ghost" href="#how"><span data-l="ar">كيف يشتغل؟</span><span data-l="en">How does it work?</span></a>
   </div>
-  <div class="req"><span data-l="ar">ويندوز 10 أو 11 · يشتغل مع آيفون وأندرويد · <span id="verAr">الإصدار التجريبي</span></span><span data-l="en">Windows 10 or 11 · Works with iPhone and Android · <span id="verEn">Beta</span></span></div>
+  <div class="req"><span data-l="ar">ويندوز 10 أو 11 · يشتغل مع آيفون وأندرويد · <span id="verAr">الإصدار التجريبي</span> · 49 MB</span><span data-l="en">Windows 10 or 11 · Works with iPhone and Android · <span id="verEn">Beta</span> · 49 MB</span></div>
  </div>
  <div class="shots">
   <img class="desk" src="assets/desktop-ar.webp" data-l="ar" alt="لوحة تحكم AI Smart Storage">
@@ -167,7 +167,7 @@ html[lang=ar] [data-l=ar],html[lang=en] [data-l=en]{display:revert}
 </div></footer>
 
 <script>
-const REL = { version: "0.2.0", url: "https://github.com/SaudiFrame/smartstorage-site/releases/latest/download/AI-Smart-Storage-Setup.exe" };
+const REL = { version: "0.2.0", url: "download/AI-Smart-Storage-Setup.exe" };
 document.querySelectorAll('#dlBtn,#dlBtn2,nav .dl').forEach(a => a.href = REL.url);
 document.getElementById('verAr').textContent = 'الإصدار ' + REL.version + ' (تجريبي)';
 document.getElementById('verEn').textContent = 'Version ' + REL.version + ' (beta)';
