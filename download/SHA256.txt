@@ -1,3 +1,4 @@
-3670ff49966670ef78a6aacce02ed38669bcbb0b2adc643189913fef064e9c6d  AI-Smart-Storage-Setup.exe
-8bb5df2c8e1ab5e860b8d13338e3d44e5297e864faf15411759df2a378cea830  AI-Smart-Storage-Mac.dmg
-cd4f607f2249185164c345021593132d9575923a87c87a8d98df0432b138c2cd  AI-Smart-Storage-Android.apk
+b394ccaff06bb8d1217a2234e3eed2c222335e5aefba5739620d87a32bb03b6e  AI-Smart-Storage-Setup.exe
+61b366fd23761bec81eb27622c75ed5f7760bdf08859e5cb40912deff5ebae26  AI-Smart-Storage-Mac.dmg
+0912d511b2034c8331981bbba44aaeacbd2dc8dda94dabd3d6e5ff3c510f98f8  AI-Smart-Storage-Mac-Intel.dmg
+05f372d5d1cdb1530aea8dc6aeff838bd7fc06c255e338a127ce2c7e878cfea6  AI-Smart-Storage-Android.apk

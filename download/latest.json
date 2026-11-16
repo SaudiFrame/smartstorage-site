@@ -1,8 +1,9 @@
 {
- "version": "0.6.0",
+ "version": "0.8.0",
  "windows": "download/AI-Smart-Storage-Setup.exe",
  "mac": "download/AI-Smart-Storage-Mac.dmg",
+ "mac_intel": "download/AI-Smart-Storage-Mac-Intel.dmg",
  "android": "download/AI-Smart-Storage-Android.apk",
- "notes_ar": "المساعد الذكي «اسأل ذكرياتك»، نسخة احتياطية تلقائية، التقرير الأسبوعي، المصروفات من الفواتير، والتحديث التلقائي.",
- "notes_en": "Smart assistant “Ask your memories”, automatic backup, weekly report, expenses from bills, and automatic updates."
+ "notes_ar": "ألبومات الأشخاص، ضغط الفيديوهات، العائلة على أرشيف واحد، كشف المحادثة الرسمي، سنتك في صور والخريطة، الخزنة الآمنة، النسخة السحابية المشفّرة، iMessage وسناب شات، قفل البرنامج، والوصول من برّا البيت.",
+ "notes_en": "People albums, video compression, family profiles, official chat transcript, year in photos & map, secure vault, encrypted cloud backup, iMessage & Snapchat, app lock, and access from outside home."
 }
