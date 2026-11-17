@@ -1,9 +1,9 @@
 {
- "version": "0.9.1",
+ "version": "0.9.2",
  "windows": "download/Offlo-Setup.exe",
  "mac": "download/Offlo-Mac.dmg",
  "mac_intel": "download/Offlo-Mac-Intel.dmg",
  "android": "download/Offlo-Android.apk",
- "notes_ar": "اسم جديد: البرنامج صار اسمه Offlo (أوفلو)، بشعار وأيقونة جديدة. ملفاتك وإعداداتك باقية مثل ما هي.",
- "notes_en": "New name: the app is now Offlo, with a new logo and icon. Your files and settings stay exactly as they were."
+ "notes_ar": "تقويم جديد بالأولويات والتذكير، مساعد يضيف المواعيد ويجاوب عن جدولك وطريقة الاستخدام، موافقة على كل جوال قبل ما يرسل، خط جديد وقائمة أبسط.",
+ "notes_en": "A new calendar with priorities and reminders, an assistant that adds appointments and answers about your schedule and the app, approval for each phone before it sends, a new typeface and a simpler sidebar."
 }
