@@ -1,9 +1,9 @@
 {
- "version": "0.9.6",
+ "version": "0.9.7",
  "windows": "download/Offlo-Setup.exe",
  "mac": "download/Offlo-Mac.dmg",
  "mac_intel": "download/Offlo-Mac-Intel.dmg",
  "android": "download/Offlo-Android.apk",
- "notes_ar": "المساعد يجاوب من أرشيفك: «متى أرسل لي أخوي رقم الحساب؟» يعطيك الرقم والتاريخ والمرسل، و«وريني فواتير الكهرباء هذي السنة» يعرض الملفات نفسها مع زر إرسالها للجوال. يفهم الوقت (هذي السنة، الشهر الماضي، رمضان، مارس 2024) والأشخاص، بدون ما تحتاج نموذج ذكاء. وتحميل الحزم والنماذج صار يكمل من حيث توقف.",
- "notes_en": "The assistant answers from your archive: “when did my brother send me the account number?” gives the number, date and sender; “show me the electricity bills this year” shows the files themselves with a send-to-phone button. It understands time (this year, last month, Ramadan, March 2024) and people, with no AI model needed. Pack and model downloads now resume where they stopped."
+ "notes_ar": "إصلاح ربط الجوال: المثبّت يفتح جدار حماية ويندوز للجوال تلقائياً (كان يمنع الاتصال في الشبكات المصنّفة «عامة»)، وزر «إصلاح الاتصال بالجوال» داخل التطبيق، والعنوان يظهر نصاً تحت الكود، واختيار أدق لعنوان الكمبيوتر (يتجاوز بطاقات الشبكة الوهمية وVPN).",
+ "notes_en": "Phone pairing fix: the installer now opens the Windows firewall for the phone automatically (it blocked connections on networks marked “Public”), an in-app “Fix phone connection” button, the address shown as text under the QR code, and a better choice of the computer's address (skips virtual adapters and VPNs). Windows build only."
 }
