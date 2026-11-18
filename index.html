@@ -66,6 +66,18 @@ section{padding:96px 0}
 .pl .btn{background:#fff;color:var(--deep);height:44px;font-size:15px}.pl .btn:hover{background:#E8F2EF}
 .pl .btn.alt{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.3);margin-top:8px}
 .pl .soon{font-size:14px;color:#BFD6CF}
+.plans{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.plan{border:1px solid var(--line);border-radius:16px;padding:28px 26px;display:flex;flex-direction:column;gap:14px;background:#fff}
+.plan.hi{border-color:var(--deep);box-shadow:0 24px 48px -32px rgba(18,59,51,.45)}
+.plan h3{margin:0;font-size:21px;display:flex;align-items:center;gap:10px}
+.plan .tag{font-size:12.5px;font-weight:600;color:var(--green);border:1px solid var(--green);border-radius:999px;padding:2px 10px}
+.plan .price{font-size:34px;font-weight:700;line-height:1.1}.plan .price small{font-size:15px;font-weight:400;color:var(--muted)}
+.plan .per{color:var(--muted);font-size:14px;margin-top:-8px}
+.plan ul{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:9px;color:var(--ink2);font-size:15px;flex:1}
+.plan li{display:grid;grid-template-columns:18px 1fr;gap:10px}.plan li:before{content:'✓';color:var(--green);font-weight:700}
+.plan .btn{height:46px;font-size:15px}
+.plans-note{color:var(--muted);font-size:14.5px;margin-top:22px;max-width:70ch}
+@media (max-width:900px){.plans{grid-template-columns:1fr}}
 .faq{max-width:820px}
 .faq details{border-bottom:1px solid var(--line);padding:18px 0}
 .faq summary{cursor:pointer;font-weight:600;font-size:17px;list-style:none;display:flex;justify-content:space-between;gap:16px}
@@ -84,6 +96,7 @@ footer .wrap{display:flex;flex-direction:column;gap:8px}
  <div class="links">
   <a href="#features"><span data-l="ar">المزايا</span><span data-l="en">Features</span></a>
   <a href="#privacy"><span data-l="ar">الخصوصية</span><span data-l="en">Privacy</span></a>
+  <a href="#plans"><span data-l="ar">الباقات</span><span data-l="en">Plans</span></a>
   <a href="#faq"><span data-l="ar">أسئلة</span><span data-l="en">Questions</span></a>
   <button class="langb" id="langb" type="button"><span data-l="ar">English</span><span data-l="en">العربية</span></button>
   <a class="btn small" href="#download"><span data-l="ar">تحميل مجاني</span><span data-l="en">Free download</span></a>
@@ -97,7 +110,7 @@ footer .wrap{display:flex;flex-direction:column;gap:8px}
   <a class="btn" id="dlMain" href="download/Offlo-Setup.exe" download><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 15V3"/><path d="m7 10 5 5 5-5"/><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/></svg><span id="dlMainTxt"><span data-l="ar">تحميل لويندوز</span><span data-l="en">Download for Windows</span></span></a>
   <a class="btn ghost" href="#download"><span data-l="ar">ماك وأندرويد</span><span data-l="en">Mac and Android</span></a>
  </div>
- <div class="req"><span data-l="ar">مجاني بالكامل. ويندوز 10 و11، ماك، أندرويد. <span id="verAr"></span></span><span data-l="en">Completely free. Windows 10 & 11, Mac, Android. <span id="verEn"></span></span></div>
+ <div class="req"><span data-l="ar">مجاني، وفيه باقات اختيارية للمزايا السحابية. ويندوز 10 و11، ماك، أندرويد. <span id="verAr"></span></span><span data-l="en">Free, with optional plans for the cloud features. Windows 10 & 11, Mac, Android. <span id="verEn"></span></span></div>
  <div class="stage">
   <img class="desk" src="assets/desktop-ar.webp" data-l="ar" alt="الصفحة الرئيسية في البرنامج: حجم الأرشيف، والمكرر، والمواعيد القادمة" width="1600" height="1022">
   <img class="desk" src="assets/desktop-en.webp" data-l="en" alt="The app’s home page: archive size, duplicates and upcoming dates" width="1600" height="1022">
@@ -157,13 +170,63 @@ footer .wrap{display:flex;flex-direction:column;gap:8px}
 
 <section id="privacy" style="background:var(--bg)"><div class="wrap">
  <div class="sec-h"><h2><span data-l="ar">ملفاتك تبقى عندك</span><span data-l="en">Your files stay with you</span></h2>
-  <p><span data-l="ar">ما فيه سيرفرات نخزن فيها شي. الجوال يرسل لكمبيوترك مباشرة، والميزات الذكية تشتغل على جهازك.</span><span data-l="en">There are no servers storing anything. Your phone sends straight to your computer, and the smart features run on it.</span></p></div>
+  <p><span data-l="ar">ملفاتك ما تمر على سيرفراتنا أبداً. الجوال يرسل لكمبيوترك مباشرة، والميزات الذكية تشتغل على جهازك. المساعد السحابي في الباقات المدفوعة يستقبل سؤالك فقط، لا صورك ولا أرشيفك.</span><span data-l="en">Your files never pass through our servers. Your phone sends straight to your computer, and the smart features run on it. The cloud assistant in the paid plans receives only your question, never your photos or archive.</span></p></div>
  <div class="steps" style="counter-reset:none">
   <div class="step" style="border-color:var(--green)"><h3><span data-l="ar">خزنة للمستندات</span><span data-l="en">A vault for documents</span></h3><p><span data-l="ar">الهويات والجوازات والعقود مشفّرة بكلمة سر خاصة.</span><span data-l="en">IDs, passports and contracts, encrypted with their own password.</span></p></div>
   <div class="step" style="border-color:var(--green)"><h3><span data-l="ar">نسخة احتياطية مشفّرة</span><span data-l="en">Encrypted backup</span></h3><p><span data-l="ar">على هارديسك خارجي، أو Google Drive وOneDrive وiCloud بتشفير من جهازك.</span><span data-l="en">To an external drive, or Google Drive, OneDrive and iCloud, encrypted on your computer first.</span></p></div>
   <div class="step" style="border-color:var(--green)"><h3><span data-l="ar">قفل البرنامج</span><span data-l="en">App lock</span></h3><p><span data-l="ar">كلمة سر أو Windows Hello قبل ما ينفتح الأرشيف.</span><span data-l="en">A password or Windows Hello before the archive opens.</span></p></div>
  </div>
  <style>#privacy .step:before{content:none}</style>
+</div></section>
+
+<section id="plans" style="padding-top:0"><div class="wrap">
+ <div class="sec-h"><h2><span data-l="ar">الباقات</span><span data-l="en">Plans</span></h2>
+  <p><span data-l="ar">الأرشيف والمزامنة والبحث مجانية للأبد على أجهزتك. الباقات المدفوعة تضيف التقويم والمساعد والميزات السحابية.</span><span data-l="en">Archiving, sync and search are free on your own devices. The paid plans add the calendar, the assistant and the cloud features.</span></p></div>
+ <div class="plans">
+  <div class="plan">
+   <h3><span data-l="ar">مجاني</span><span data-l="en">Free</span></h3>
+   <div class="price">0 <small><span data-l="ar">ريال</span><span data-l="en">SAR</span></small></div>
+   <div class="per"><span data-l="ar">بدون حدود زمنية</span><span data-l="en">No time limit</span></div>
+   <ul>
+    <li><span data-l="ar">أرشفة واتساب وتيليجرام وiMessage وغيرها</span><span data-l="en">Archive WhatsApp, Telegram, iMessage and more</span></li>
+    <li><span data-l="ar">مزامنة جوال واحد مع كمبيوتر واحد</span><span data-l="en">One phone with one computer</span></li>
+    <li><span data-l="ar">بحث، شيل المكرر، تفريغ المساحة</span><span data-l="en">Search, duplicates, free up space</span></li>
+    <li><span data-l="ar">نسخة احتياطية مشفّرة وخزنة المستندات</span><span data-l="en">Encrypted backup and the document vault</span></li>
+    <li><span data-l="ar">الميزات الذكية على جهازك (بدون إنترنت)</span><span data-l="en">On-device smart features (offline)</span></li>
+    <li><span data-l="ar">دعم بالتذاكر</span><span data-l="en">Ticket support</span></li>
+   </ul>
+   <a class="btn ghost" href="#download"><span data-l="ar">حمّل مجاناً</span><span data-l="en">Download free</span></a>
+  </div>
+  <div class="plan hi">
+   <h3><span data-l="ar">بلس</span><span data-l="en">Plus</span> <span class="tag"><span data-l="ar">تجربة 14 يوم</span><span data-l="en">14-day trial</span></span></h3>
+   <div class="price">19 <small><span data-l="ar">ريال / شهر</span><span data-l="en">SAR / month</span></small></div>
+   <div class="per"><span data-l="ar">أو 190 ريال في السنة (شهرين مجاناً)</span><span data-l="en">or 190 SAR a year (two months free)</span></div>
+   <ul>
+    <li><span data-l="ar">كل مزايا المجاني</span><span data-l="en">Everything in Free</span></li>
+    <li><span data-l="ar">3 جوالات وكمبيوترين</span><span data-l="en">3 phones and 2 computers</span></li>
+    <li><span data-l="ar">تقويم بالأولويات والتذكير من محادثاتك</span><span data-l="en">Calendar with priorities and reminders from your chats</span></li>
+    <li><span data-l="ar">المساعد: 300 سؤال في الشهر</span><span data-l="en">The assistant: 300 questions a month</span></li>
+    <li><span data-l="ar">تفريغ الصوتيات: 300 دقيقة في الشهر</span><span data-l="en">Voice transcription: 300 minutes a month</span></li>
+    <li><span data-l="ar">محادثة مباشرة مع فريق Offlo</span><span data-l="en">Live chat with the Offlo team</span></li>
+   </ul>
+   <a class="btn" href="#download"><span data-l="ar">ابدأ التجربة</span><span data-l="en">Start the trial</span></a>
+  </div>
+  <div class="plan">
+   <h3><span data-l="ar">برو</span><span data-l="en">Pro</span></h3>
+   <div class="price">49 <small><span data-l="ar">ريال / شهر</span><span data-l="en">SAR / month</span></small></div>
+   <div class="per"><span data-l="ar">أو 490 ريال في السنة (شهرين مجاناً)</span><span data-l="en">or 490 SAR a year (two months free)</span></div>
+   <ul>
+    <li><span data-l="ar">كل مزايا بلس</span><span data-l="en">Everything in Plus</span></li>
+    <li><span data-l="ar">6 جوالات و3 كمبيوترات، للعائلة أو الفريق</span><span data-l="en">6 phones and 3 computers, for the family or the team</span></li>
+    <li><span data-l="ar">المساعد: 1000 سؤال في الشهر</span><span data-l="en">The assistant: 1,000 questions a month</span></li>
+    <li><span data-l="ar">تفريغ الصوتيات: 900 دقيقة في الشهر</span><span data-l="en">Voice transcription: 900 minutes a month</span></li>
+    <li><span data-l="ar">أولوية في الدعم</span><span data-l="en">Priority support</span></li>
+    <li><span data-l="ar">لوحة إدارة لأجهزتك</span><span data-l="en">An admin page for your devices</span></li>
+   </ul>
+   <a class="btn ghost" href="#download"><span data-l="ar">حمّل وفعّل من الإعدادات</span><span data-l="en">Download, then activate in Settings</span></a>
+  </div>
+ </div>
+ <p class="plans-note"><span data-l="ar">كل كمبيوتر جديد يبدأ بتجربة بلس 14 يوم تلقائياً. الاشتراك يُفعّل بمفتاح من داخل البرنامج: الإعدادات ← الاشتراك ← «طلب الاشتراك». الأسعار شاملة الضريبة.</span><span data-l="en">Every new computer starts with a 14-day Plus trial. Subscribe with a key from inside the app: Settings → Subscription → “Request this plan”. Prices include VAT.</span></p>
 </div></section>
 
 <section id="download"><div class="wrap">
@@ -182,7 +245,7 @@ footer .wrap{display:flex;flex-direction:column;gap:8px}
 <section id="faq" style="padding-top:0"><div class="wrap">
  <div class="sec-h"><h2><span data-l="ar">أسئلة شائعة</span><span data-l="en">Questions</span></h2></div>
  <div class="faq">
-  <details><summary><span data-l="ar">هل البرنامج مجاني فعلاً؟</span><span data-l="en">Is it really free?</span></summary><p><span data-l="ar">نعم، مجاني بالكامل، والتخزين على أجهزتك أنت.</span><span data-l="en">Yes, completely free, and storage is on your own devices.</span></p></details>
+  <details><summary><span data-l="ar">هل البرنامج مجاني فعلاً؟</span><span data-l="en">Is it really free?</span></summary><p><span data-l="ar">نعم. الأرشفة والمزامنة والبحث والنسخ الاحتياطي مجانية بدون حد زمني، والتخزين على أجهزتك أنت. الباقات المدفوعة (بلس وبرو) تضيف التقويم والمساعد والميزات السحابية فقط.</span><span data-l="en">Yes. Archiving, sync, search and backup are free with no time limit, and storage is on your own devices. The paid plans (Plus and Pro) only add the calendar, the assistant and the cloud features.</span></p></details>
   <details><summary><span data-l="ar">ويندوز يقول «Windows protected your PC»</span><span data-l="en">Windows says “Windows protected your PC”</span></summary><p><span data-l="ar">تنبيه طبيعي لأي برنامج جديد ما عليه شهادة توقيع للحين. اضغط «مزيد من المعلومات» ثم «تشغيل على أي حال».</span><span data-l="en">This is normal for a new app that isn’t code-signed yet. Click “More info”, then “Run anyway”.</span></p></details>
   <details><summary><span data-l="ar">الماك يقول إن البرنامج ما ينفتح</span><span data-l="en">My Mac says the app can’t be opened</span></summary><p><span data-l="ar">اضغط على البرنامج بالزر الأيمن ثم «فتح»، أو من إعدادات النظام ← الخصوصية والأمان ← «فتح على أي حال».</span><span data-l="en">Right-click the app and choose Open, or go to System Settings → Privacy & Security → “Open Anyway”.</span></p></details>
   <details><summary><span data-l="ar">كيف أثبّت تطبيق أندرويد؟</span><span data-l="en">How do I install the Android app?</span></summary><p><span data-l="ar">حمّل الملف من الجوال وافتحه، واسمح بتثبيت التطبيقات لما يطلب. إذا طلع تنبيه Play Protect اضغط «التثبيت على أي حال»، وبعدها امسح الرمز اللي على كمبيوترك.</span><span data-l="en">Download it on the phone, open it and allow installing apps when asked. If Play Protect warns, tap “Install anyway”, then scan the code on your computer.</span></p></details>
