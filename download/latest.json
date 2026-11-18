@@ -1,9 +1,9 @@
 {
- "version": "0.9.4",
+ "version": "0.9.5",
  "windows": "download/Offlo-Setup.exe",
  "mac": "download/Offlo-Mac.dmg",
  "mac_intel": "download/Offlo-Mac-Intel.dmg",
  "android": "download/Offlo-Android.apk",
- "notes_ar": "مزامنة صامتة: جوال أندرويد يرسل الجديد لحاله كل 15 دقيقة وهو على الواي فاي، ويلقى الكمبيوتر بنفسه حتى لو تغيّر عنوانه في الشبكة بدون إعادة ربط. البرنامج يبدأ مع ويندوز تلقائياً عشان الأرشيف جاهز دائماً. ومن 0.9.3: باقات الاشتراك، صفحة الدعم، واستيراد الآيفون من نسخة الكيبل.",
- "notes_en": "Silent sync: an Android phone sends new files by itself every 15 minutes on Wi-Fi and finds the computer on its own, even when its network address changes, with no re-pairing. The app starts with Windows so the archive is always ready. From 0.9.3: subscription plans, the Support page and iPhone import from a cable backup."
+ "notes_ar": "الرجوع للجوال: من صفحة الجوال اختر صور أو ألبوم كامل واضغط «حفظ في الجوال» (في الآيفون تروح للصور مباشرة). ومن الكمبيوتر اضغط «للجوال» على أي ملف فيظهر في الجوال جاهز للحفظ بضغطة. ومن 0.9.4: مزامنة صامتة كل 15 دقيقة والجوال يلقى الكمبيوتر بنفسه.",
+ "notes_en": "Back to the phone: on the phone page pick photos or a whole album and tap “Save to phone” (straight into Photos on iPhone). On the computer press “To phone” on any file and it shows up on the phone ready to save with one tap. From 0.9.4: silent sync every 15 minutes and the phone finds the computer by itself."
 }
