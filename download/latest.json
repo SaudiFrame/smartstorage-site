@@ -1,9 +1,9 @@
 {
- "version": "0.9.3",
+ "version": "0.9.4",
  "windows": "download/Offlo-Setup.exe",
  "mac": "download/Offlo-Mac.dmg",
  "mac_intel": "download/Offlo-Mac-Intel.dmg",
  "android": "download/Offlo-Android.apk",
- "notes_ar": "باقات اشتراك: التقويم والمساعد ضمن Plus وPro مع تجربة 14 يوم لكل كمبيوتر جديد، وتبويب «الاشتراك» في الإعدادات. صفحة دعم فيها تذاكر ومحادثة مباشرة مع فريق Offlo. للآيفون: استيراد كل محادثات واتساب ووسائطها وصور الكاميرا من نسخة احتياطية واحدة بالكيبل بدون تصدير كل محادثة لحالها.",
- "notes_en": "Subscription plans: the calendar and the assistant are part of Plus and Pro, with a 14-day trial on every new computer and a Subscription tab in Settings. A Support page with tickets and a live chat with the Offlo team. iPhone: import every WhatsApp chat, its media and the camera roll from one cable backup, no more exporting chats one by one."
+ "notes_ar": "مزامنة صامتة: جوال أندرويد يرسل الجديد لحاله كل 15 دقيقة وهو على الواي فاي، ويلقى الكمبيوتر بنفسه حتى لو تغيّر عنوانه في الشبكة بدون إعادة ربط. البرنامج يبدأ مع ويندوز تلقائياً عشان الأرشيف جاهز دائماً. ومن 0.9.3: باقات الاشتراك، صفحة الدعم، واستيراد الآيفون من نسخة الكيبل.",
+ "notes_en": "Silent sync: an Android phone sends new files by itself every 15 minutes on Wi-Fi and finds the computer on its own, even when its network address changes, with no re-pairing. The app starts with Windows so the archive is always ready. From 0.9.3: subscription plans, the Support page and iPhone import from a cable backup."
 }
