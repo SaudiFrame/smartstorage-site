@@ -1,9 +1,9 @@
 {
- "version": "0.9.5",
+ "version": "0.9.6",
  "windows": "download/Offlo-Setup.exe",
  "mac": "download/Offlo-Mac.dmg",
  "mac_intel": "download/Offlo-Mac-Intel.dmg",
  "android": "download/Offlo-Android.apk",
- "notes_ar": "الرجوع للجوال: من صفحة الجوال اختر صور أو ألبوم كامل واضغط «حفظ في الجوال» (في الآيفون تروح للصور مباشرة). ومن الكمبيوتر اضغط «للجوال» على أي ملف فيظهر في الجوال جاهز للحفظ بضغطة. ومن 0.9.4: مزامنة صامتة كل 15 دقيقة والجوال يلقى الكمبيوتر بنفسه.",
- "notes_en": "Back to the phone: on the phone page pick photos or a whole album and tap “Save to phone” (straight into Photos on iPhone). On the computer press “To phone” on any file and it shows up on the phone ready to save with one tap. From 0.9.4: silent sync every 15 minutes and the phone finds the computer by itself."
+ "notes_ar": "المساعد يجاوب من أرشيفك: «متى أرسل لي أخوي رقم الحساب؟» يعطيك الرقم والتاريخ والمرسل، و«وريني فواتير الكهرباء هذي السنة» يعرض الملفات نفسها مع زر إرسالها للجوال. يفهم الوقت (هذي السنة، الشهر الماضي، رمضان، مارس 2024) والأشخاص، بدون ما تحتاج نموذج ذكاء. وتحميل الحزم والنماذج صار يكمل من حيث توقف.",
+ "notes_en": "The assistant answers from your archive: “when did my brother send me the account number?” gives the number, date and sender; “show me the electricity bills this year” shows the files themselves with a send-to-phone button. It understands time (this year, last month, Ramadan, March 2024) and people, with no AI model needed. Pack and model downloads now resume where they stopped."
 }
