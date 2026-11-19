@@ -1,9 +1,9 @@
 {
- "version": "0.9.8",
+ "version": "0.9.9",
  "windows": "download/Offlo-Setup.exe",
  "mac": "download/Offlo-Mac.dmg",
  "mac_intel": "download/Offlo-Mac-Intel.dmg",
  "android": "download/Offlo-Android.apk",
- "notes_ar": "البرنامج صار اسمه Offlo في ويندوز: ملف التشغيل ومجلد التثبيت والاختصارات وبدء التشغيل (كان «AI Smart Storage»). الأرشيف وإعداداتك في مكانها بدون تغيير. المثبّت يقفل النسخة القديمة تلقائياً. ويتضمن إصلاح ربط الجوال (جدار الحماية) من 0.9.7.",
- "notes_en": "The Windows app is now called Offlo everywhere: program file, install folder, shortcuts and startup entry (it was “AI Smart Storage”). Your archive and settings stay where they are. The installer closes the old copy automatically. Includes the phone pairing fix (firewall) from 0.9.7."
+ "notes_ar": "اسم مجلد البيانات صار Offlo أيضاً: عند أول تشغيل ينتقل أرشيفك من «AI Smart Storage» إلى «Offlo» تلقائياً وبأمان (وإذا تعذر النقل يكمل بالمجلد القديم بدون ضياع). يتضمن تغيير اسم البرنامج وإصلاح جدار الحماية لربط الجوال.",
+ "notes_en": "The data folder is now called Offlo too: on first start your archive moves from “AI Smart Storage” to “Offlo” automatically and safely (if the move is refused it keeps using the old folder, nothing is lost). Includes the app rename and the firewall fix for phone pairing."
 }
