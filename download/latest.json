@@ -1,9 +1,9 @@
 {
- "version": "0.11.0",
+ "version": "0.12.0",
  "windows": "download/Offlo-Setup.exe",
  "mac": "download/Offlo-Mac.dmg",
  "mac_intel": "download/Offlo-Mac-Intel.dmg",
  "android": "download/Offlo-Android.apk",
- "notes_ar": "ربط أسهل: عنوان ثابت للكمبيوتر (offlo-اسم-جهازك.local) يظهر مع الكود ولا يتغير مع الراوتر. وفي أول تشغيل خطوة «مكان الأرشيف»: اختر هذا الكمبيوتر أو هارديسك خارجي وينتقل الأرشيف عليه مباشرة. وإذا انفصل القرص يظهر شريط تنبيه في كل الصفحات والجوال يحتفظ بملفاته لين يرجع، والبرنامج ما يكتب على قرص النظام بالغلط.",
- "notes_en": "Easier linking: a fixed address for your computer (offlo-<pc-name>.local) shown next to the code that survives router changes. First run now has an “Archive location” step: pick this computer or an external drive and the archive moves there right away. If the drive is unplugged, a banner shows on every page, the phone keeps its files until it returns, and nothing is written to the system disk by mistake. Windows build."
+ "notes_ar": "أرشف كل شي: في تطبيق أندرويد زر واحد يلقى بنفسه واتساب (وبزنس) وتيليجرام وإنستقرام والكاميرا ولقطات الشاشة والتنزيلات ويزامنها (يحتاج صلاحية «إدارة كل الملفات» مرة وحدة). وكل محادثات واتساب دفعة وحدة بدون تصدير: فعّل النسخ المشفّر بمفتاح 64 رقماً في واتساب، ويرسله التطبيق، وتلصق المفتاح في صفحة «التطبيقات» ويستورد كل المحادثات. وفي الآيفون صار استيراد النسخة الاحتياطية (واتساب والصور) ظاهراً وبضغطة.",
+ "notes_en": "Archive everything: one button in the Android app finds WhatsApp (and Business), Telegram, Instagram, camera photos, screenshots and downloads by itself and keeps them synced (needs “manage all files” permission once). All WhatsApp chats at once with no exporting: turn on the 64-digit-key encrypted backup in WhatsApp, the app sends it, you paste the key on the Apps page and every chat is imported. On iPhone, importing the backup (WhatsApp and photos) is now front and centre, one tap."
 }
