@@ -25,24 +25,25 @@ a{color:var(--green)}
 nav{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
 nav .wrap{display:flex;align-items:center;gap:20px;height:66px}
 .brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--ink)}.brand img{width:34px;height:34px;border-radius:9px}.brand b{font-size:16px}
-.links{display:flex;align-items:center;gap:22px;margin-inline-start:auto}
-.links a{color:var(--ink2);text-decoration:none;font-size:15px}.links a:hover{color:var(--ink)}.links a.btn,.links a.btn:hover{color:#fff}
+.menu{display:flex;align-items:center;gap:6px;margin-inline-start:20px}
+.menu a{color:var(--ink2);text-decoration:none;font-size:15px;padding:8px 12px;border-radius:9px}.menu a:hover{color:var(--ink);background:var(--bg)}
+.nav-actions{display:flex;align-items:center;gap:12px;margin-inline-start:auto}.nav-actions a.btn,.nav-actions a.btn:hover{color:#fff}
 .langb{height:38px;padding:0 12px;border:1px solid var(--line);border-radius:10px;background:#fff;font:inherit;font-size:14px;cursor:pointer;color:var(--ink)}
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;height:50px;padding:0 22px;border-radius:12px;background:var(--deep);color:#fff;text-decoration:none;font-weight:600;font-size:16px;border:0;cursor:pointer}
 .btn:hover{background:#0B2A24}.btn.small{height:40px;padding:0 16px;font-size:14.5px}
 .btn.ghost{background:#fff;color:var(--ink);border:1px solid var(--line)}.btn.ghost:hover{background:var(--bg)}
-.hero{padding:72px 0 0}
-.hero h1{font-size:clamp(40px,6.4vw,76px);line-height:1.12;margin:0;font-weight:700;letter-spacing:-.01em;max-width:13ch}
-html[lang=en] .hero h1{max-width:14ch;letter-spacing:-.02em}
-.hero .lead{font-size:clamp(17px,1.6vw,20px);color:var(--ink2);max-width:58ch;margin:22px 0 30px}
-.cta{display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+.hero{padding:72px 0 0;text-align:center}
+.hero h1{text-wrap:balance;font-size:clamp(40px,6.4vw,76px);line-height:1.12;margin:0;font-weight:700;letter-spacing:-.01em;max-width:15ch;margin-inline:auto}
+html[lang=en] .hero h1{max-width:16ch;letter-spacing:-.02em}
+.hero .lead{font-size:clamp(17px,1.6vw,20px);color:var(--ink2);max-width:60ch;margin:22px auto 30px}
+.cta{display:flex;gap:12px;flex-wrap:wrap;align-items:center;justify-content:center}
 .req{color:var(--muted);font-size:14px;margin-top:14px}
 .stage{position:relative;margin-top:56px;padding-bottom:40px}
 .stage .desk{width:100%;height:auto;border-radius:14px;border:1px solid var(--line);display:block;box-shadow:0 30px 60px -30px rgba(18,59,51,.35)}
 .stage .phone{position:absolute;bottom:0;inset-inline-start:-12px;width:min(230px,26%);border-radius:28px;border:7px solid var(--ink);background:var(--ink)}
 section{padding:96px 0}
 .sec-h{max-width:640px;margin-bottom:44px}
-.sec-h h2,.row h2{font-size:clamp(28px,3.4vw,40px);line-height:1.25;margin:0 0 12px}
+.sec-h h2,.row h2{text-wrap:balance;font-size:clamp(28px,3.4vw,40px);line-height:1.25;margin:0 0 12px}
 .sec-h p,.row p.lead2{color:var(--ink2);font-size:17.5px;margin:0}
 .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;counter-reset:s}
 .step{border-top:2px solid var(--deep);padding-top:18px}
@@ -86,21 +87,23 @@ section{padding:96px 0}
 .faq p{margin:10px 0 0;color:var(--ink2);max-width:70ch}
 footer{border-top:1px solid var(--line);padding:32px 0 48px;color:var(--muted);font-size:14px}
 footer .wrap{display:flex;flex-direction:column;gap:8px}
-@media (max-width:900px){.links a:not(.btn){display:none}.row{grid-template-columns:1fr;gap:28px}.row:nth-child(even) .txt{order:0}.steps,.plat{grid-template-columns:1fr 1fr}.stage .phone{display:none}.dl-band{padding:28px}}
+@media (max-width:900px){.menu{display:none}.row{grid-template-columns:1fr;gap:28px}.row:nth-child(even) .txt{order:0}.steps,.plat{grid-template-columns:1fr 1fr}.stage .phone{display:none}.dl-band{padding:28px}}
 @media (max-width:560px){.steps,.plat{grid-template-columns:1fr}section{padding:64px 0}.hero{padding-top:44px}}
 </style>
 </head>
 <body>
 <nav><div class="wrap">
  <a class="brand" href="#"><img src="assets/icon-192.png" alt=""><b dir="ltr">Offlo</b></a>
- <div class="links">
+ <div class="menu">
   <a href="#features"><span data-l="ar">المزايا</span><span data-l="en">Features</span></a>
   <a href="#privacy"><span data-l="ar">الخصوصية</span><span data-l="en">Privacy</span></a>
   <a href="#plans"><span data-l="ar">الباقات</span><span data-l="en">Plans</span></a>
   <a href="#faq"><span data-l="ar">أسئلة</span><span data-l="en">Questions</span></a>
+ </div>
+ <div class="nav-actions">
   <button class="langb" id="langb" type="button"><span data-l="ar">English</span><span data-l="en">العربية</span></button>
   <a class="btn small" href="#download"><span data-l="ar">تحميل مجاني</span><span data-l="en">Free download</span></a>
- </div>
+  </div>
 </div></nav>
 
 <header class="hero"><div class="wrap">
@@ -179,7 +182,7 @@ footer .wrap{display:flex;flex-direction:column;gap:8px}
  <style>#privacy .step:before{content:none}</style>
 </div></section>
 
-<section id="plans" style="padding-top:0"><div class="wrap">
+<section id="plans"><div class="wrap">
  <div class="sec-h"><h2><span data-l="ar">الباقات</span><span data-l="en">Plans</span></h2>
   <p><span data-l="ar">الأرشيف والمزامنة والبحث مجانية للأبد على أجهزتك. الباقات المدفوعة تضيف التقويم والمساعد والميزات السحابية.</span><span data-l="en">Archiving, sync and search are free on your own devices. The paid plans add the calendar, the assistant and the cloud features.</span></p></div>
  <div class="plans">
@@ -242,7 +245,7 @@ footer .wrap{display:flex;flex-direction:column;gap:8px}
  </div>
 </div></section>
 
-<section id="faq" style="padding-top:0"><div class="wrap">
+<section id="faq" style="padding-top:72px"><div class="wrap">
  <div class="sec-h"><h2><span data-l="ar">أسئلة شائعة</span><span data-l="en">Questions</span></h2></div>
  <div class="faq">
   <details><summary><span data-l="ar">هل البرنامج مجاني فعلاً؟</span><span data-l="en">Is it really free?</span></summary><p><span data-l="ar">نعم. الأرشفة والمزامنة والبحث والنسخ الاحتياطي مجانية بدون حد زمني، والتخزين على أجهزتك أنت. الباقات المدفوعة (بلس وبرو) تضيف التقويم والمساعد والميزات السحابية فقط.</span><span data-l="en">Yes. Archiving, sync, search and backup are free with no time limit, and storage is on your own devices. The paid plans (Plus and Pro) only add the calendar, the assistant and the cloud features.</span></p></details>
