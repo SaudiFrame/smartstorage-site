@@ -1,9 +1,9 @@
 {
- "version": "0.12.0",
+ "version": "0.13.0",
  "windows": "download/Offlo-Setup.exe",
  "mac": "download/Offlo-Mac.dmg",
  "mac_intel": "download/Offlo-Mac-Intel.dmg",
  "android": "download/Offlo-Android.apk",
- "notes_ar": "أرشف كل شي: في تطبيق أندرويد زر واحد يلقى بنفسه واتساب (وبزنس) وتيليجرام وإنستقرام والكاميرا ولقطات الشاشة والتنزيلات ويزامنها (يحتاج صلاحية «إدارة كل الملفات» مرة وحدة). وكل محادثات واتساب دفعة وحدة بدون تصدير: فعّل النسخ المشفّر بمفتاح 64 رقماً في واتساب، ويرسله التطبيق، وتلصق المفتاح في صفحة «التطبيقات» ويستورد كل المحادثات. وفي الآيفون صار استيراد النسخة الاحتياطية (واتساب والصور) ظاهراً وبضغطة.",
- "notes_en": "Archive everything: one button in the Android app finds WhatsApp (and Business), Telegram, Instagram, camera photos, screenshots and downloads by itself and keeps them synced (needs “manage all files” permission once). All WhatsApp chats at once with no exporting: turn on the 64-digit-key encrypted backup in WhatsApp, the app sends it, you paste the key on the Apps page and every chat is imported. On iPhone, importing the backup (WhatsApp and photos) is now front and centre, one tap."
+ "notes_ar": "النسخ الاحتياطي صار أذكى: اختر تكراره (كل 6 ساعات، يومي، أسبوعي، شهري، كل 3 أشهر، 6 أشهر، سنوي)، وتنبيه لو مرّت أيام بدون نسخة أو القرص مفصول، وفحص سلامة كامل للنسخة وللأرشيف الأصلي (أسبوعي تلقائي) يكتشف أي ملف تالف ويعيد نسخه تلقائياً.",
+ "notes_en": "Smarter backups: choose the schedule (6 hours, daily, weekly, monthly, every 3 or 6 months, yearly), get alerted when a backup is overdue or the drive is unplugged, and run a full integrity check of the backup and the original archive (weekly automatically) that detects corrupt files and re-copies them."
 }
