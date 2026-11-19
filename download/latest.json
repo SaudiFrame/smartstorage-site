@@ -1,9 +1,9 @@
 {
- "version": "0.15.0",
+ "version": "0.16.0",
  "windows": "download/Offlo-Setup.exe",
  "mac": "download/Offlo-Mac.dmg",
  "mac_intel": "download/Offlo-Mac-Intel.dmg",
  "android": "download/Offlo-Android.apk",
- "notes_ar": "بحث أذكى: اسأل بصوتك أو كتابة «وين فاتورة الكهرباء؟» وتجيك الملفات (ميكروفون في صفحة الجوال). المصاريف تتصنف تلقائياً (كهرباء، مطاعم، بقالة…) مع مقارنة بالشهر السابق. تذكيرات الرسائل تلقط «أرسل/كلمني/سدد» و«الأسبوع الجاي» و«نهاية الشهر». ملخص محادثة بجملتين حتى بدون ذكاء اصطناعي. وفي أندرويد: زر «استرجاع على هذا الجوال» يرجّع الصور والفيديو والمستندات ونسخة واتساب لجوال جديد.",
- "notes_en": "Smarter search: ask by voice or text, “where is my electricity bill?”, and get the files (mic on the phone page). Expenses are categorised automatically (utilities, food, groceries…) with a month-over-month comparison. Message reminders catch “send/call/pay”, “next week” and “end of month”. Two-sentence chat summary, even without AI. On Android: “Restore to this phone” brings photos, videos, documents and the WhatsApp backup back to a new phone."
+ "notes_ar": "نسخ احتياطي لأكثر من مكان: أضف وجهات (قرص، Google Drive، OneDrive، Dropbox) لكل واحدة جدولها وفحص سلامتها، مع تنبيه لو ناقصك نسختين. تيليجرام: تحديد الكل وبحث، ومزامنة كل المحادثات الحالية والجديدة تلقائياً. ماسنجر وإنستقرام: استيراد التصدير بكل أجزائه دفعة وحدة (مع المحادثات المؤرشفة)، واستيراد صور جوجل بتواريخها الأصلية. تجربة المساعد السحابي المجانية صارت 30 سؤالاً لكل جهاز.",
+ "notes_en": "Back up to several places: add destinations (disk, Google Drive, OneDrive, Dropbox), each with its own schedule and integrity check, plus a hint when you have fewer than 3 copies. Telegram: select all, search, and auto-sync of every current and new chat. Messenger and Instagram: import the export with all its parts at once (archived chats included), and import Google Photos with the original dates. The free cloud-assistant trial is now 30 questions per device."
 }
