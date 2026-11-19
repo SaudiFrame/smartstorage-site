@@ -1,9 +1,9 @@
 {
- "version": "0.10.0",
+ "version": "0.11.0",
  "windows": "download/Offlo-Setup.exe",
  "mac": "download/Offlo-Mac.dmg",
  "mac_intel": "download/Offlo-Mac-Intel.dmg",
  "android": "download/Offlo-Android.apk",
- "notes_ar": "واجهة أبسط: القائمة الجانبية صارت 5 خيارات (الرئيسية، أرشيفي، اسأل، وفّر المساحة، الإعدادات) والباقي صار تبويبات داخلها، وفي الرئيسية بطاقة «الخطوة التالية» تقودك خطوة خطوة بدل الأرقام الفارغة، وشرح تصدير واتساب في الجوال صار قابلاً للطي.",
- "notes_en": "A simpler interface: the sidebar now has 5 entries (Home, My archive, Ask, Free up space, Settings) with the rest as tabs inside them, a “Next step” card on Home guides you instead of empty numbers, and the WhatsApp export guide on the phone page is collapsible. Windows build."
+ "notes_ar": "ربط أسهل: عنوان ثابت للكمبيوتر (offlo-اسم-جهازك.local) يظهر مع الكود ولا يتغير مع الراوتر. وفي أول تشغيل خطوة «مكان الأرشيف»: اختر هذا الكمبيوتر أو هارديسك خارجي وينتقل الأرشيف عليه مباشرة. وإذا انفصل القرص يظهر شريط تنبيه في كل الصفحات والجوال يحتفظ بملفاته لين يرجع، والبرنامج ما يكتب على قرص النظام بالغلط.",
+ "notes_en": "Easier linking: a fixed address for your computer (offlo-<pc-name>.local) shown next to the code that survives router changes. First run now has an “Archive location” step: pick this computer or an external drive and the archive moves there right away. If the drive is unplugged, a banner shows on every page, the phone keeps its files until it returns, and nothing is written to the system disk by mistake. Windows build."
 }
