@@ -1,9 +1,9 @@
 {
- "version": "0.9.9",
+ "version": "0.10.0",
  "windows": "download/Offlo-Setup.exe",
  "mac": "download/Offlo-Mac.dmg",
  "mac_intel": "download/Offlo-Mac-Intel.dmg",
  "android": "download/Offlo-Android.apk",
- "notes_ar": "اسم مجلد البيانات صار Offlo أيضاً: عند أول تشغيل ينتقل أرشيفك من «AI Smart Storage» إلى «Offlo» تلقائياً وبأمان (وإذا تعذر النقل يكمل بالمجلد القديم بدون ضياع). يتضمن تغيير اسم البرنامج وإصلاح جدار الحماية لربط الجوال.",
- "notes_en": "The data folder is now called Offlo too: on first start your archive moves from “AI Smart Storage” to “Offlo” automatically and safely (if the move is refused it keeps using the old folder, nothing is lost). Includes the app rename and the firewall fix for phone pairing."
+ "notes_ar": "واجهة أبسط: القائمة الجانبية صارت 5 خيارات (الرئيسية، أرشيفي، اسأل، وفّر المساحة، الإعدادات) والباقي صار تبويبات داخلها، وفي الرئيسية بطاقة «الخطوة التالية» تقودك خطوة خطوة بدل الأرقام الفارغة، وشرح تصدير واتساب في الجوال صار قابلاً للطي.",
+ "notes_en": "A simpler interface: the sidebar now has 5 entries (Home, My archive, Ask, Free up space, Settings) with the rest as tabs inside them, a “Next step” card on Home guides you instead of empty numbers, and the WhatsApp export guide on the phone page is collapsible. Windows build."
 }
