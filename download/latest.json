@@ -1,9 +1,9 @@
 {
- "version": "0.9.7",
+ "version": "0.9.8",
  "windows": "download/Offlo-Setup.exe",
  "mac": "download/Offlo-Mac.dmg",
  "mac_intel": "download/Offlo-Mac-Intel.dmg",
  "android": "download/Offlo-Android.apk",
- "notes_ar": "إصلاح ربط الجوال: المثبّت يفتح جدار حماية ويندوز للجوال تلقائياً (كان يمنع الاتصال في الشبكات المصنّفة «عامة»)، وزر «إصلاح الاتصال بالجوال» داخل التطبيق، والعنوان يظهر نصاً تحت الكود، واختيار أدق لعنوان الكمبيوتر (يتجاوز بطاقات الشبكة الوهمية وVPN).",
- "notes_en": "Phone pairing fix: the installer now opens the Windows firewall for the phone automatically (it blocked connections on networks marked “Public”), an in-app “Fix phone connection” button, the address shown as text under the QR code, and a better choice of the computer's address (skips virtual adapters and VPNs). Windows build only."
+ "notes_ar": "البرنامج صار اسمه Offlo في ويندوز: ملف التشغيل ومجلد التثبيت والاختصارات وبدء التشغيل (كان «AI Smart Storage»). الأرشيف وإعداداتك في مكانها بدون تغيير. المثبّت يقفل النسخة القديمة تلقائياً. ويتضمن إصلاح ربط الجوال (جدار الحماية) من 0.9.7.",
+ "notes_en": "The Windows app is now called Offlo everywhere: program file, install folder, shortcuts and startup entry (it was “AI Smart Storage”). Your archive and settings stay where they are. The installer closes the old copy automatically. Includes the phone pairing fix (firewall) from 0.9.7."
 }
