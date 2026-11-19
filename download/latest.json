@@ -1,9 +1,9 @@
 {
- "version": "0.14.0",
+ "version": "0.15.0",
  "windows": "download/Offlo-Setup.exe",
  "mac": "download/Offlo-Mac.dmg",
  "mac_intel": "download/Offlo-Mac-Intel.dmg",
  "android": "download/Offlo-Android.apk",
- "notes_ar": "محادثات واتساب بالأسماء بدل الأرقام: استورد جهاتك (vCard أو CSV من جوجل/الآيفون) من صفحة التطبيقات، وتطبيق أندرويد يرسلها تلقائياً بعد إذنك. وبحث بالصورة: ارفع أو اسحب صورة في صفحة البحث وتلقى الصور المشابهة وصور نفس الشخص (يحتاج تفعيل الذكاء الاصطناعي).",
- "notes_en": "WhatsApp chats show contact names instead of numbers: import your contacts (vCard or CSV from Google/iPhone) from the Apps page, and the Android app sends them automatically with your permission. Search by photo: upload or drag a photo on the Search page to find similar photos and photos of the same person (needs AI turned on)."
+ "notes_ar": "بحث أذكى: اسأل بصوتك أو كتابة «وين فاتورة الكهرباء؟» وتجيك الملفات (ميكروفون في صفحة الجوال). المصاريف تتصنف تلقائياً (كهرباء، مطاعم، بقالة…) مع مقارنة بالشهر السابق. تذكيرات الرسائل تلقط «أرسل/كلمني/سدد» و«الأسبوع الجاي» و«نهاية الشهر». ملخص محادثة بجملتين حتى بدون ذكاء اصطناعي. وفي أندرويد: زر «استرجاع على هذا الجوال» يرجّع الصور والفيديو والمستندات ونسخة واتساب لجوال جديد.",
+ "notes_en": "Smarter search: ask by voice or text, “where is my electricity bill?”, and get the files (mic on the phone page). Expenses are categorised automatically (utilities, food, groceries…) with a month-over-month comparison. Message reminders catch “send/call/pay”, “next week” and “end of month”. Two-sentence chat summary, even without AI. On Android: “Restore to this phone” brings photos, videos, documents and the WhatsApp backup back to a new phone."
 }
