@@ -1,9 +1,9 @@
 {
- "version": "0.13.0",
+ "version": "0.14.0",
  "windows": "download/Offlo-Setup.exe",
  "mac": "download/Offlo-Mac.dmg",
  "mac_intel": "download/Offlo-Mac-Intel.dmg",
  "android": "download/Offlo-Android.apk",
- "notes_ar": "النسخ الاحتياطي صار أذكى: اختر تكراره (كل 6 ساعات، يومي، أسبوعي، شهري، كل 3 أشهر، 6 أشهر، سنوي)، وتنبيه لو مرّت أيام بدون نسخة أو القرص مفصول، وفحص سلامة كامل للنسخة وللأرشيف الأصلي (أسبوعي تلقائي) يكتشف أي ملف تالف ويعيد نسخه تلقائياً.",
- "notes_en": "Smarter backups: choose the schedule (6 hours, daily, weekly, monthly, every 3 or 6 months, yearly), get alerted when a backup is overdue or the drive is unplugged, and run a full integrity check of the backup and the original archive (weekly automatically) that detects corrupt files and re-copies them."
+ "notes_ar": "محادثات واتساب بالأسماء بدل الأرقام: استورد جهاتك (vCard أو CSV من جوجل/الآيفون) من صفحة التطبيقات، وتطبيق أندرويد يرسلها تلقائياً بعد إذنك. وبحث بالصورة: ارفع أو اسحب صورة في صفحة البحث وتلقى الصور المشابهة وصور نفس الشخص (يحتاج تفعيل الذكاء الاصطناعي).",
+ "notes_en": "WhatsApp chats show contact names instead of numbers: import your contacts (vCard or CSV from Google/iPhone) from the Apps page, and the Android app sends them automatically with your permission. Search by photo: upload or drag a photo on the Search page to find similar photos and photos of the same person (needs AI turned on)."
 }
